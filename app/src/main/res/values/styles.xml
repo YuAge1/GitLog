@@ -1,0 +1,97 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>
+
+<!--<ImageView-->
+<!--android:id="@+id/checkmark"-->
+<!--android:layout_width="30dp"-->
+<!--android:layout_height="30dp"-->
+<!--android:layout_marginStart="16dp"-->
+<!--android:visibility="invisible"-->
+<!--app:layout_constraintBottom_toBottomOf="@+id/username"-->
+<!--app:layout_constraintStart_toEndOf="@+id/username"-->
+<!--app:layout_constraintTop_toTopOf="@+id/username" />-->
+
+<!--<EditText-->
+<!--android:id="@+id/username"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:layout_marginLeft="40sp"-->
+<!--android:layout_marginTop="20sp"-->
+<!--android:layout_marginRight="40sp"-->
+<!--android:autofillHints="username"-->
+<!--android:hint="Username"-->
+<!--android:inputType="text"-->
+<!--android:padding="15sp"-->
+<!--android:selectAllOnFocus="true"-->
+<!--android:singleLine="true"-->
+<!--app:layout_constraintBottom_toTopOf="@+id/password"-->
+<!--app:layout_constraintEnd_toEndOf="parent"-->
+<!--app:layout_constraintHorizontal_bias="0.5"-->
+<!--app:layout_constraintStart_toStartOf="parent"-->
+<!--app:layout_constraintTop_toTopOf="parent"-->
+<!--app:layout_constraintVertical_chainStyle="packed" />-->
+
+<!--<EditText-->
+<!--android:id="@+id/password"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:layout_marginLeft="40sp"-->
+<!--android:layout_marginTop="20sp"-->
+<!--android:layout_marginRight="40sp"-->
+<!--android:layout_marginBottom="20sp"-->
+<!--android:ems="10"-->
+<!--android:hint="Password"-->
+<!--android:inputType="textPassword"-->
+<!--android:padding="15sp"-->
+<!--android:selectAllOnFocus="true"-->
+<!--android:singleLine="true"-->
+<!--android:textColor="@color/black"-->
+<!--app:layout_constraintBottom_toTopOf="@+id/twoFA"-->
+<!--app:layout_constraintEnd_toEndOf="parent"-->
+<!--app:layout_constraintHorizontal_bias="0.5"-->
+<!--app:layout_constraintStart_toStartOf="parent"-->
+<!--app:layout_constraintTop_toBottomOf="@+id/username" />-->
+
+<!--<EditText-->
+<!--android:id="@+id/twoFA"-->
+<!--android:layout_width="250dp"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:layout_marginStart="8dp"-->
+<!--android:layout_marginTop="32dp"-->
+<!--android:layout_marginEnd="8dp"-->
+<!--android:hint="two-factor authentication"-->
+<!--android:importantForAutofill="no"-->
+<!--android:inputType="number"-->
+<!--android:selectAllOnFocus="true"-->
+<!--android:singleLine="true"-->
+<!--android:visibility="gone"-->
+<!--app:layout_constraintBottom_toTopOf="@+id/login"-->
+<!--app:layout_constraintEnd_toEndOf="parent"-->
+<!--app:layout_constraintHorizontal_bias="0.5"-->
+<!--app:layout_constraintStart_toStartOf="parent"-->
+<!--app:layout_constraintTop_toBottomOf="@+id/password"-->
+<!--tools:ignore="HardcodedText" />-->
+
+<!--<Button-->
+<!--android:id="@+id/LoginButton"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:layout_marginLeft="80sp"-->
+<!--android:layout_marginRight="80sp"-->
+<!--android:text="Login"-->
+<!--android:textColor="@android:color/holo_orange_dark"-->
+<!--android:textSize="18sp"-->
+<!--app:layout_constraintBottom_toBottomOf="parent"-->
+<!--app:layout_constraintEnd_toEndOf="parent"-->
+<!--app:layout_constraintHorizontal_bias="0.5"-->
+<!--app:layout_constraintStart_toStartOf="parent"-->
+<!--app:layout_constraintTop_toBottomOf="@+id/twoFA" />-->
