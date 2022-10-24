@@ -1,2 +1,3 @@
 APK file
-[Uploading debug.zip…]()
+[debug.zip](https://github.com/YuAge1/GitLog/files/9853173/debug.zip)
+
